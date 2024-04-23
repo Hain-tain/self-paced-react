@@ -1,9 +1,9 @@
 import "./App.css";
 
-import AddRestaurantModal from "./components/AddRestaurantModal";
+// import AddRestaurantModal from "./components/AddRestaurantModal";
 import CategoryFilter from "./components/CategoryFilter";
 import Header from "./components/Header";
-import RestaurantDetailModal from "./components/RestaurantDetailModal";
+// import RestaurantDetailModal from "./components/RestaurantDetailModal";
 import RestaurantList from "./components/RestaurantList";
 
 function App() {
@@ -15,8 +15,8 @@ function App() {
         <RestaurantList />
       </main>
       <aside>
-        <RestaurantDetailModal />
-        <AddRestaurantModal />
+        {/* <RestaurantDetailModal /> */}
+        {/* <AddRestaurantModal /> */}
       </aside>
     </>
   );
